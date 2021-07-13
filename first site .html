@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joumadem</title>
+    <link rel="stylesheet" href="first site.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav>
+        <ul class="lis">
+            <li class="f"><a href=" #sec2">about us  </a></li>
+            <li class="f"><a href=" #sec2">career    </a></li>
+            <li class="f"><a href=" #sec2">contact   </a></li>
+            
+        </ul>
+        <h1 class="main">joumadem</h1>
+    </nav>
+        <br>
+        <section class="sec1">
+        <section id="basket">
+   <p>Total price : <span id="total_price">0</span>$</p>
+ </section><br>
+        <br><br><br>
+        <br>
+        <div class="css">
+            <div id="it">
+        <p class="purchase">tiramisu :<button id="btn" onclick=" pricen(this.id,'id1') " value="3" >-</button> <p id="id1">1</p> <button id="btn" onclick=" price(this.id,'it','id1')" value="3" >+</button></p><p class="p">..</p><i onclick="trashy('it','btn','id1')" class="fas fa-trash" id="trash"></i>
+            </div><br>
+            <div id="it1">
+        <p class="purchase">Monitor :<button id="btn1" onclick=" pricen(this.id,'id2') " value="3000" >-</button><p id="id2">1</p><button id="btn1" onclick=" price(this.id,'it1','id2') " value="3000" >+</button></p><p class="p">..</p><i onclick="trashy('it1','btn1','id2')" class="fas fa-trash" id="trash"></i>
+        </div><br>
+        <div id="it2">
+        <p class="purchase">baby yoda :<button id="btn2" onclick=" pricen(this.id,'id3') " value="10" >-</button><p id="id3">1</p><button id="btn2" onclick=" price(this.id,'it2','id3') " value="10" >+</button></p><p class="p">..</p><i onclick="trashy('it2','btn2','id3')" class="fas fa-trash" id="trash"></i>
+        </div><br>
+        <div id="it3">
+        <p class="purchase">chocolate :<button id="btn3" onclick=" pricen(this.id,'id4') " value="20" >-</button><P id="id4">1</P><button id="btn3" onclick=" price(this.id,'it3','id4') " value="20" >+</button></p><p class="p">..</p><i onclick="trashy('it3','btn3','id4')" class="fas fa-trash" id="trash"></i>
+        </div><br>
+        <div id="it4">
+        <p class="purchase">chips :<button id="btn4" onclick=" pricen(this.id,'id5') " value="3" >-</button><p id="id5">1</p><button id="btn4" onclick=" price(this.id,'it4','id5') " value="3" >+</button></p><p class="p">..</p><i onclick="trashy('it4','btn4','id5')"class="fas fa-trash" id="trash"></i>
+        </div><br>
+    </section>
+    <section class="sec2">
+        <div id="items">
+            <div class="img1">
+                <img class="im" src="res/imaes (1).jpg" alt="tiramisu">
+                <div class="item">tiramisu :<span class="price">3</span>$</div>
+                <div class="btn">
+                <button id="btn" onclick=" price(this.id , 'it') " value="3" >add to cart</button><p class="p">....</p><i onclick="im1(this.id)" class="fas fa-heart" id="im1"></i>
+            </div>
+            </div><br><br>
+            <div class="img2">
+                <img class="im" src="res/téléchargemet (1).jpg" alt="pc">
+                <div class="item">Monitor :<span  class="price1">3000</span>$</div>
+                <div class="btn">
+                <button id="btn1" onclick=" price(this.id, 'it1') " value="3000" >add to cart</button><p class="p">....</p><i onclick="im1(this.id)" class="fas fa-heart" id="im2"></i>
+                </div>
+            </div><br><br>
+            <div class="img3">
+                <img class="im" src="res/téléchargement.jpg" alt="baby yoda">
+                <div class="item">baby yoda :<span class="price2">10</span>$</div>
+                <div class="btn">
+                <button id="btn2" onclick=" price(this.id , 'it2') " value="10" >add to cart</button><p class="p">....</p><i onclick="im1(this.id)" class="fas fa-heart" id="im3"></i>
+            </div>
+            </div><br><br>
+            <div class="img4">
+                <img class="im" src="res/42846895-35566875.jpg" alt="chocolat">
+                <div class="item">chocolate :<span class="price3">20</span>$</div>
+                <div class="btn">
+                <button id="btn3" onclick=" price(this.id , 'it3') " value="20" >add to cart</button><p class="p">....</p><i onclick="im1(this.id)" class="fas fa-heart" id="im4"></i>
+            </div>
+            </div><br><br>
+            <div class="img5">
+                <img class="im" src="res/chips.jpg" alt="chips">
+                <div class="item">chips :<span class="price4">3</span>$</div>
+                <div class="btn">
+                <button id="btn4" onclick=" price(this.id , 'it4') " value="3" >add to cart</button><p class="p">....</p><i onclick="im1(this.id)" class="fas fa-heart" id="im5"></i>
+            </div>
+            </div><br><br>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+        Ullam facilis aliquid in dolor reprehenderit quis ab libero non,<br>
+         iure fugit aspernatur, beatae rem nesciunt sit temporibus eaque?<br>
+          Quasi, commodi eveniet.</footer>
+    <script src="firstSite.js"></script>
+</body>
+</html>

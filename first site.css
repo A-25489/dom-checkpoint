@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+#basket {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(22, 67%, 76%);
+    border-radius: 4px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+}
+#items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.im {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #f1d1ac;
+    background-color: #f1d1ac;
+    border-radius: 10px;
+}
+.item {
+    font-size: 40px;
+}
+#btn, #btn1, #btn2, #btn3, #btn4 {
+    background-color: #4feb98;
+    border-radius: 7px;
+    font-size: 30px;
+}
+#btn:hover {
+    box-shadow: 3px 4px 5px #c0c0c0;
+}
+#btn1:hover {
+    box-shadow: 3px 4px 5px #c0c0c0;
+}
+#btn2:hover {
+    box-shadow: 3px 4px 5px #c0c0c0;
+}
+#btn3:hover {
+    box-shadow: 3px 4px 5px #c0c0c0;
+}
+#btn4:hover {
+    box-shadow: 3px 4px 5px #c0c0c0;
+}
+.css {
+    font-size: 30px;
+    position: fixed;
+}
+#it {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+#it1 {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+#it2 {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+#it3 {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+#it4 {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+.fas {
+    font-size: 40px;
+}
+.p {
+    color: transparent;
+}
+.footer {
+    color: #686868;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa {
+    font-size: 40px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 2px 2px 5px #afafaf;
+}
+.f a:hover {
+    color: #46f3dc;
+    background-color: #fdfdfd;
+}
+.lis {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.f {
+   margin-right: 15px;
+   margin-top: 15px;
+}
+.f a {
+    text-decoration: none;
+}
+.main {
+    color: #4feb98;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
